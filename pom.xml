@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.dropwizard-bundles</groupId>
   <artifactId>parent-pom</artifactId>
-  <version>1.0.5-SNAPSHOT</version>
+  <version>1.0.5</version>
   <packaging>pom</packaging>
 
   <name>Dropwizard Bundles parent pom</name>
@@ -19,7 +18,7 @@
     <url>http://github.com/bbeck/parent-pom</url>
     <connection>scm:git:git@github.com:bbeck/parent-pom.git</connection>
     <developerConnection>scm:git:git@github.com:bbeck/parent-pom.git</developerConnection>
-    <tag>release-test</tag>
+    <tag>v1.0.5</tag>
   </scm>
 
   <licenses>
@@ -80,7 +79,7 @@
                 </requireJavaVersion>
 
                 <!-- Make sure dependencies converge to the same versions. -->
-                <dependencyConvergence/>
+                <dependencyConvergence />
 
                 <!-- Make sure we don't use dependencies that conflict with Dropwizard. -->
                 <bannedDependencies>
